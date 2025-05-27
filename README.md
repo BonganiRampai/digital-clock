@@ -1,3 +1,5 @@
+![Digital Clock Banner](./banner.png)
+
 Digital Clock
 
 A simple and elegant digital clock web app built using HTML, CSS, and JavaScript.
