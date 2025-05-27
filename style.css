@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    color: #f8fafc;
+    font-family: 'Segoe UI',Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.clock-container{
+    background-color: #1e293b;
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow:  0 0 30px rgb(0,0,0,0.3);
+}
+
+#clock{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+body.light-mode{
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+body.light-mode .clock-container{
+    background-color: #e2e8f0;
+    color: #1e293b;
+}
+
+/* Toggle Container */
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+}
+
+/* Hide default checkbox */
+#toggle {
+  display: none;
+}
+
+/* Label styling */
+.toggle-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 5px;
+  position: relative;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Circle slider */
+.toggle-label .ball {
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Switch active (dark mode on) */
+#toggle:checked + .toggle-label .ball {
+  transform: translateX(40px);
+}
+
+.toggle-label .icons {
+  font-size: 14px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 0 8px;
+}
+
+/* Dark mode styles */
+.dark-theme {
+  background-color: #121212;
+  color: #f0f0f0;
+}
