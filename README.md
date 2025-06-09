@@ -29,6 +29,7 @@ A sleek and responsive web-based digital clock built using **HTML**, **CSS**, an
 git clone https://github.com/BonganiRampai/digital-clock.git
 cd digital-clock
 
+---
 
 ## 🧠 How to Use
 
@@ -36,11 +37,15 @@ cd digital-clock
 2. The time will auto-update in real-time.
 3. Use the toggle button to switch between 12-hour and 24-hour display formats.
 
+---
+
 ## 🧰 Technologies Used
 
 HTML5 – semantic layout
 CSS3 – responsive and modern design
 JavaScript (ES6+) – real-time functionality and toggling logic
+
+---
 
 ##📂 Project Structure
 
@@ -51,6 +56,8 @@ digital-clock/
 ├── script.js         # JavaScript logic
 ├── banner.png        # Header image
 └── README.md         # Project documentation
+
+---
 
 ## 🙋🏽‍♂️ Author
 Bongani Rampai
