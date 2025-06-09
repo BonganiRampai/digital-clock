@@ -21,16 +21,6 @@ A sleek and responsive web-based digital clock built using **HTML**, **CSS**, an
 
 ---
 
-## 🚀 Getting Started
-
-### 📁 Clone the Repository
-
-```bash
-git clone https://github.com/BonganiRampai/digital-clock.git
-cd digital-clock
-
----
-
 ## 🧠 How to Use
 
 1. Open the project in your browser.
@@ -44,18 +34,6 @@ cd digital-clock
 HTML5 – semantic layout
 CSS3 – responsive and modern design
 JavaScript (ES6+) – real-time functionality and toggling logic
-
----
-
-##📂 Project Structure
-
-digital-clock/
-│
-├── index.html        # Main HTML file
-├── style.css         # Styling and layout
-├── script.js         # JavaScript logic
-├── banner.png        # Header image
-└── README.md         # Project documentation
 
 ---
 
